@@ -1,0 +1,88 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/009/948/963/non_2x/aesthetic-minimal-purple-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-for-your-design-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form_input
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+input[type="radio"] {
+    width: 15px; /* Set the width */
+    height: 15px; /* Set the height */
+  
+  }
+input
+{
+    margin-left: 10px;
+    align-items: center;
+}
+.submitbutton
+{
+    height: 25px;
+    width: 70px;
+}
+.submitbutton:hover
+{
+    color: darkmagenta;
+}
+input
+{
+    height: 25px;
+    width: 200px;
+
+}
+.card
+{
+    border: 1px solid white;
+    width: 250px;
+    justify-content: center;
+    padding: 5px;
+    margin: 20px;
+    background-color:#b87cdb;
+    color: white;
+    border-radius: 30px;
+}
+img{
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+}
+.card:hover
+{
+    background-color: #754990;
+}
+.output
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.edit
+{
+  
+  font-size: large;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    padding-right: 20px;
+    float: right;
+    padding-bottom: 10px;
+}
+.del
+{
+  
+  font-size: large;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    padding-left: 20px;
+    float: left;
+    padding-bottom: 10px;
+}
